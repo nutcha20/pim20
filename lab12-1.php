@@ -11,7 +11,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <img src="img/photo/n4.png" style="height: 600px; width: 100%;" class="img-fluid">
+                <img src="n4.png" style="height: 600px; width: 100%;" class="img-fluid">
             </div>
             <div class="col-md-3">
                 <img src="n1.jpg" style="height: 200px;" class="img-fluid rounded" />
