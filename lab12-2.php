@@ -12,7 +12,7 @@
         <div class="row">
             <div class="col-sm-4">
                 <div class="card">
-                    <img class="card-img-top" src="sky/s1.jpg">
+                    <img class="card-img-top" src="s1.jpg">
                     <div class="card-body">
                         <h4class="card-title">The beautiful sky </h4>
                         <p class="card-text">Please Look up in the sky</p>
@@ -22,7 +22,7 @@
             </div>
             <div class="col-sm-4">
                 <div class="card">
-                    <img class="card-img-top" src="sky/s2.jpg">
+                    <img class="card-img-top" src="s2.jpg">
                     <div class="card-body">
                         <h4class="card-title">The beautiful sky </h4>
                         <p class="card-text">You should look them when you tried </p>
@@ -32,7 +32,7 @@
             </div>
             <div class="col-sm-4">
                 <div class="card">
-                    <img class="card-img-top" src="sky/s3.jpg">
+                    <img class="card-img-top" src="s3.jpg">
                     <div class="card-body">
                         <h4class="card-title">The beautiful sky </h4>
                         <p class="card-text">It's help you better</p>
