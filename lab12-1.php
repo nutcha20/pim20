@@ -14,13 +14,13 @@
                 <img src="img/photo/n4.png" style="height: 600px; width: 100%;" class="img-fluid">
             </div>
             <div class="col-md-3">
-                <img src="img/photo/n1.jpg" style="height: 200px;" class="img-fluid rounded" />
-                <img src="img/photo/n2.jpg" style="height: 200px;" class="img-fluid rounded" />
-                <img src="img/photo/n3.jpg" style="height: 200px;" class="img-fluid img-" />
+                <img src="n1.jpg" style="height: 200px;" class="img-fluid rounded" />
+                <img src="n2.jpg" style="height: 200px;" class="img-fluid rounded" />
+                <img src="n3.jpg" style="height: 200px;" class="img-fluid img-" />
             </div>
             <div class="col-md-3">
-                <img src="img/photo/n5.png" style ="height: 400px;" class="img-fluid rounded" />
-                <img src="img/photo/n6.jpg" style="height: 200px;" class="img-fluid rounded" />
+                <img src="n5.png" style ="height: 400px;" class="img-fluid rounded" />
+                <img src="n6.jpg" style="height: 200px;" class="img-fluid rounded" />
             </div>
         </div> <!-- Close Row 2 -->
     </div> <!-- Close container -->
