@@ -1,8 +1,8 @@
 <?php
 
 $conn = mysqli_init();
-mysqli_real_connect($conn, 'itf-lab-database.mysql.database.azure.com', 'pavarisa@itf-lab-database', '2002THtonhom', 'itflab', 3306);
-if (mysqli_connect_errno($conn))
+mysqli_real_connect($conn, 'nutcha20.mysql.database.azure.com', 'nutcha@nutcha20', '20092544a-a', 'nutcha20', 3306);
+if (mysqli_connect_errno($conn))29
 {
     die('Failed to connect to MySQL: '.mysqli_connect_error());
 }
@@ -13,7 +13,7 @@ $comment = $_POST['comment'];
 $link = $_POST['link'];
 
 
-$sql = "INSERT INTO guestbook (Name , Comment , Link) VALUES ('$name', '$comment', '$link')";
+$sql = "INSERT INTO newtable (Name , Comment , link) VALUES ('$name', '$comment', '$link')";
 
 
 if (mysqli_query($conn, $sql)) {
