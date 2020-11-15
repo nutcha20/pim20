@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>How are you today</title>
+<title>Your Comment</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -27,7 +27,7 @@ $res = mysqli_query($conn, 'SELECT * FROM NewTable_1');
     <thead class="thead-dark">
     <tr class="active">
       <th width="200"> <div align="center">Name</div></th>
-      <th width="500"> <div align="center">Felt</div></th>
+      <th width="500"> <div align="center">Comment</div></th>
       <th width="100"> <div align="center">Action</div></th>
     </tr>
      </thead>
