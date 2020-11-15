@@ -16,7 +16,7 @@ if (mysqli_connect_errno($conn))
 {
     die('Failed to connect to MySQL PLEASE TRY AGAIN !: '.mysqli_connect_error());
 }
-$res = mysqli_query($conn, 'SELECT * FROM newtable_1');
+$res = mysqli_query($conn, 'SELECT * FROM newtable');
 ?>
 
 <div class="container">
