@@ -12,7 +12,7 @@ $name = $_POST['Name'];
 $comment = $_POST['Comment'];
 
 
-$sql = "DELETE FROM NewTable_1 WHERE Name='$name'";
+$sql = "DELETE FROM newtable_1 WHERE Name='$name'";
 
 if (mysqli_query($conn, $sql)) {
     echo "New record created successfully! CONGRATULATION!";
