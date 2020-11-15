@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>How are you today</title>
+<title>Write Your Comment</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -16,12 +16,12 @@ if (mysqli_connect_errno($conn))
 {
     die('Failed to connect to MySQL PLEASE TRY AGAIN !: '.mysqli_connect_error());
 }
-$res = mysqli_query($conn, 'SELECT * FROM NewTable_1');
+$res = mysqli_query($conn, 'SELECT * FROM newtable_1');
 ?>
 
 <div class="container">
     <div class="form">
-        <p class="ex1"><h1><center>How are you today</center></h1></p>
+        <p class="ex1"><h1><center>Thank Ypo For Comment</center></h1></p>
     </div>
   <table width="800" border="1" class="table table-dark table-hover table-striped" class="center" >
     <thead class="thead-dark">
