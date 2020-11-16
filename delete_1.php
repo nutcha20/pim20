@@ -12,7 +12,7 @@ $name = $_POST['Name'];
 $comment = $_POST['Comment'];
 
 
-$sql = "DELETE FROM gust WHERE Name='$Name'";
+$sql = "DELETE FROM gust WHERE Name='$name'";
 
 if (mysqli_query($conn, $sql)) {
     echo "New record created successfully! CONGRATULATION!";
