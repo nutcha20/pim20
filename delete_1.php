@@ -8,8 +8,8 @@ if (mysqli_connect_errno($conn))
 }
 
 
-$name = $_POST['Name'];
-$comment = $_POST['Comment'];
+$name = $_POST['name'];
+$comment = $_POST['comment'];
 
 
 $sql = "DELETE FROM gust WHERE Name='$name'";
