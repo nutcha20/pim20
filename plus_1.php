@@ -1,16 +1,16 @@
-  
 <?php
 
 $conn = mysqli_init();
-mysqli_real_connect($conn, 'nutcha20.mysql.database.azure.com', 'nutcha@nutcha20', '20092544a-a', 'itflab', 3306);
+mysqli_real_connect($conn, 'tonklazz.mysql.database.azure.com', 'tonklazuzu2@tonklazz', 'Kla007as', 'itflab', 3306);
 if (mysqli_connect_errno($conn))
 {
     die('Failed to connect to MySQL: '.mysqli_connect_error());
 }
 
 
-$name = $_POST['Name'];
-$comment = $_POST['Comment'];
+$name = $_POST['name'];
+$comment = $_POST['comment'];
+
 
 
 $sql = "INSERT INTO gust (Name , Comment) VALUES ('$name', '$comment')";
@@ -23,4 +23,4 @@ if (mysqli_query($conn, $sql)) {
   }
   
 mysqli_close($conn);
-?
+?>
