@@ -21,7 +21,7 @@ $res = mysqli_query($conn, 'SELECT * FROM newtable');
 
 <div class="container">
     <div class="form">
-        <p class="ex1"><h1><center>Thank Ypo For Comment</center></h1></p>
+        <p class="ex1"><h1><center>Thank You For Comment</center></h1></p>
     </div>
   <table width="800" border="1" class="table table-dark table-hover table-striped" class="center" >
     <thead class="thead-dark">
