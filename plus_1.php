@@ -13,7 +13,7 @@ $name = $_POST['Name'];
 $comment = $_POST['Comment'];
 
 
-$sql = "INSERT INTO newtable (Name , Comment) VALUES ('$name', '$comment')";
+$sql = "INSERT INTO newtable_1 (Name , Comment) VALUES ('$name', '$comment')";
 
 
 if (mysqli_query($conn, $sql)) {
