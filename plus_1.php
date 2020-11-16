@@ -1,3 +1,4 @@
+  
 <?php
 
 $conn = mysqli_init();
@@ -12,7 +13,7 @@ $name = $_POST['Name'];
 $comment = $_POST['Comment'];
 
 
-$sql = "INSERT INTO gust (Name , Comment) VALUES ('$Name', '$Comment')";
+$sql = "INSERT INTO gust (Name , Comment) VALUES ('$name', '$comment')";
 
 
 if (mysqli_query($conn, $sql)) {
@@ -22,4 +23,4 @@ if (mysqli_query($conn, $sql)) {
   }
   
 mysqli_close($conn);
-?>
+?
