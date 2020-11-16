@@ -12,7 +12,7 @@ $name = $_POST['Name'];
 $comment = $_POST['Comment'];
 
 
-$sql = "UPDATE newtable SET Comment='$comment' WHERE Name='$name' ";
+$sql = "UPDATE gust SET Comment='$comment' WHERE Name='$name' ";
 
 
 if (mysqli_query($conn, $sql)) {
