@@ -12,7 +12,7 @@ $name = $_POST['Name'];
 $comment = $_POST['Comment'];
 
 
-$sql = "INSERT INTO gust (Name , Comment) VALUES ('$name', '$comment')";
+$sql = "INSERT INTO gust (Name , Comment) VALUES ('$Name', '$Comment')";
 
 
 if (mysqli_query($conn, $sql)) {
