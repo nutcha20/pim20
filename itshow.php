@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>One song for U</title>
+<title>One song to me</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -21,7 +21,7 @@ $res = mysqli_query($conn, 'SELECT * FROM gust');
 
 <div class="container">
     <div class="form">
-        <p class="ex1"><h1><center>I want you to listen my favorite song</center></h1></p>
+        <p class="ex1"><h1><center>I want to listen your favorite song</center></h1></p>
     </div>
   <table width="800" border="1" class="table table-dark table-hover table-striped" class="center" >
     <thead class="thead-dark">
