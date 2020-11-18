@@ -16,7 +16,7 @@ $sql = "UPDATE gust SET Comment='$comment' WHERE Name='$name' ";
 
 
 if (mysqli_query($conn, $sql)) {
-    echo "New record created successfully! CONGRATULATION!";
+    header('Location: https://nutcha.azurewebsites.net/itshow.php');
   } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
   }
